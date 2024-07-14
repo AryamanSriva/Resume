@@ -1,7 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #121212;
+    color: #f4f4f4;
     margin: 0;
     padding: 20px;
 }
@@ -9,10 +10,10 @@ body {
 .container {
     max-width: 800px;
     margin: auto;
-    background: #fff;
+    background: #1e1e1e;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header {
@@ -29,7 +30,7 @@ header p {
 }
 
 header a {
-    color: #0073e6;
+    color: #82aaff;
     text-decoration: none;
 }
 
@@ -42,7 +43,7 @@ section {
 }
 
 h2 {
-    border-bottom: 2px solid #0073e6;
+    border-bottom: 2px solid #82aaff;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
@@ -61,4 +62,8 @@ ul {
 
 ul li {
     margin-bottom: 5px;
+}
+
+strong {
+    font-weight: bold;
 }
